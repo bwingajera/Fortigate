@@ -26,17 +26,6 @@
         "description": "Name for FortiGate virtual appliance."
       }
     },
-    "FortiGateImageSKU": {
-      "type": "string",
-      "defaultValue": "fortinet_fg-vm_payg",
-      "allowedValues": [
-        "fortinet_fg-vm",
-        "fortinet_fg-vm_payg"
-      ],
-      "metadata": {
-        "description": "Identifies whether to to use PAYG (on demand licensing) or BYOL license model (where license is purchased separately)"
-      }
-    },
     "instanceType": {
       "type": "string",
       "defaultValue": "Standard_D2_v2",
